@@ -21,7 +21,8 @@
   ],
   "dependencies": {
     "coffee-script": "1.8",
-    "redis": "~0.8.4"
+    "redis": "~0.8.4",
+    "parse-redis-url": "0.0.1"
   },
   "engines": {
     "node": "0.10"
