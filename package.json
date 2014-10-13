@@ -1,0 +1,36 @@
+{
+  "name": "wiki-storage-redis",
+  "description": "redis storage for Federated Wiki",
+  "version": "0.0.1",
+  "author": {
+    "name": "Paul Rodwell",
+    "email": "paul.rodwell@btinternet.com",
+    "url": "http://wiki-paul90.rhcloud.com"
+  },
+  "contributors": [
+    {
+      "name": "Ward Cunningham",
+      "email": "ward@c2.com",
+      "url": "http://ward.fed.wiki.org"
+    },
+    {
+      "name": "Nick Niemeir",
+      "email": "nick.niemeir@gmail.com",
+      "url": "http://nrn.io"
+    }
+  ],
+  "dependencies": {
+    "coffee-script": "1.8",
+    "redis": "~0.8.4"
+  },
+  "engines": {
+    "node": "0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedwiki/wiki-storage-redis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fedwiki/wiki-storage-redis/issues"
+  }
+}
