@@ -41,7 +41,13 @@ locally or to where you wish to install Federated Wiki.*
 is done by adding the following configuration setting
 
 ```
---database '{"type": "wiki-storage-redis" "host": "...", "port": nnn, "options": {...}}'
+--database '{"type": "redis", "host": "...", "port": nnn, "options": {...}}'
+```
+
+The host and port will also optionally be read from the environment variable named in the configuration field "env_url", or from a URL in the field "url" - this is to ease heroku-style deployment, e.g.
+
+```
+--database '{"type": "redis", "env_url": "REDISCLOUD_URL", "options": {...}}'
 ```
 
 ## Developer Notes
