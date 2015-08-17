@@ -19,13 +19,18 @@
       "url": "http://nrn.io"
     }
   ],
-  "dependencies": {
-    "coffee-script": "1.8",
-    "redis": "~0.8.4",
-    "parse-redis-url": "0.0.1"
+  "devDependencies": {
+    "grunt": "0.4",
+    "grunt-git-authors": "~3"
   },
+  "dependencies": {
+    "coffee-script": "1.9",
+    "redis": "~0.8.4",
+    "parse-redis-url": "0.0.2"
+  },
+  "license": "MIT",
   "engines": {
-    "node": "0.10"
+    "node": ">=0.10"
   },
   "repository": {
     "type": "git",
